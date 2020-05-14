@@ -61,7 +61,7 @@ class User < ApplicationRecord
 
   # Sends activation email.
   def send_activation_email
-    UserMailer.delay.account_activation(self).deliver_now
+    UserMailer.account_activation(self).deliver_later
   end
   
   private
