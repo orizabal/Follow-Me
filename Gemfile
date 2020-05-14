@@ -62,7 +62,6 @@ end
 group :production do
   gem 'pg', '1.1.4'
   gem 'sendgrid-ruby'
-  gem 'delayed_job_active_record'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
