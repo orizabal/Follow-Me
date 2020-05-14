@@ -100,7 +100,9 @@ Rails.application.configure do
     :user_name      => ENV['SENDGRID_USERNAME'],
     :password       => ENV['SENDGRID_PASSWORD'],
     :domain         => 'heroku.com',
-    :enable_starttls_auto => true
+    :enable_starttls_auto => true,
+    :ssl            => true,
+    :tls            => true
   }
 
   # Inserts middleware to perform automatic connection switching.
