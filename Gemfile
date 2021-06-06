@@ -12,7 +12,7 @@ gem 'bootstrap-will_paginate', '1.0.0'
 gem 'bootstrap-sass', '3.4.1'
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
-gem 'puma', '4.3.3'
+gem 'puma', '4.3.8'
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.1.0'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
